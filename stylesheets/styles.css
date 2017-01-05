@@ -1,3 +1,6 @@
+body {
+  margin: 20px 20px 20px 30px;
+}
 .timeline {
   list-style: none;
   padding: 10px 0 10px;
@@ -142,6 +145,29 @@
   margin-top: 5px;
 }
 .timeline-body > img{
-  max-width: 80%;
-  max-height: 80%;
+  max-width: 100%;
+  max-height: 60%;
+}
+.icon{
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+
+}
+.icon-pacman{
+  stroke-width: 0;
+  stroke: #f0ad4e ;
+  fill: #f0ad4e ;
+}
+
+#pacmanOverlay {
+  background: black;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 0;
+  transition: opacity .5s;
 }
