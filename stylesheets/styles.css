@@ -154,20 +154,8 @@ body {
   height: 1em;
 
 }
-.icon-pacman{
+.icon-pacman {
   stroke-width: 0;
   stroke: #f0ad4e ;
   fill: #f0ad4e ;
-}
-
-#pacmanOverlay {
-  background: black;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  top: 0;
-  left: 0;
-  position: absolute;
-  padding: 0;
-  transition: opacity .5s;
 }
