@@ -148,14 +148,3 @@ body {
   max-width: 100%;
   max-height: 60%;
 }
-.icon{
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-
-}
-.icon-pacman {
-  stroke-width: 0;
-  stroke: #f0ad4e ;
-  fill: #f0ad4e ;
-}
