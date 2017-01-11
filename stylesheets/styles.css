@@ -3,10 +3,31 @@ body {
   font-family:Courier;
 }
 
-.subheader{
-  margin-top: 10px;
-  font-weight:bold;
+.header{
+  font-size: x-large;
 }
+
+.icon{
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: black;
+  fill: black;
+}
+
+.header > a {
+    width: 5%;
+    padding: 12px 0;
+    float: right;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.header > a:hover {
+    background-color: #fff;
+}
+
 a {
   color: #708090;
 }
@@ -18,21 +39,19 @@ a:hover {
 }
 
 .header{
-    border-right: 2px solid rgba(255,255,255,.75);
     white-space: nowrap;
     overflow: hidden;
 }
 
-/* Animation */
-.typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+.subheader{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight:bold;
 }
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 24em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
+
+
+.floated{
+    float: right;
+    width: 150px;
+    filter: grayscale(50%);
 }
