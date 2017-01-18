@@ -3,44 +3,32 @@ body {
   font-family:Courier;
 }
 
-.header{
-  font-size: x-large;
+
+.footer{
+  float : right;
+  padding-top: 10px;
 }
 
 .icon{
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  stroke-width: 0;
+  stroke: black;
+}
+.icon-small{
   display: inline-block;
   width: 1em;
   height: 1em;
   stroke-width: 0;
   stroke: black;
-  fill: black;
 }
 
-.header > a {
-    width: 5%;
-    padding: 12px 0;
-    float: right;
-    transition: all 0.3s ease;
-    color: white;
-}
-
-.header > a:hover {
-    background-color: #fff;
-}
-
-a {
-  color: #708090;
-}
-a:visited{
-  color:#696969;
-}
-a:hover {
-  color: #2F4F4F;
-}
 
 .header{
     white-space: nowrap;
     overflow: hidden;
+    font-size: x-large;
 }
 
 .subheader{
@@ -49,9 +37,32 @@ a:hover {
   font-weight:bold;
 }
 
+a {
+  color: #708090;
+  padding-right: 10px;
+}
+
+a:visited{
+  color:#696969;
+}
+
+a:hover {
+  color: #2F4F4F;
+}
+
+.container{
+  border-top: solid;
+  border-bottom: solid;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 
 .floated{
-    float: right;
+    float: left;
     width: 150px;
-    filter: grayscale(50%);
+    padding-right: 10px;
 }
+
+.floated-right{
+    float: right;
+};
