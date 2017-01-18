@@ -3,7 +3,6 @@ body {
   font-family:Courier;
 }
 
-
 .footer{
   float : right;
   padding-top: 10px;
@@ -15,15 +14,18 @@ body {
   height: 2em;
   stroke-width: 0;
   stroke: black;
+  cursor:pointer;
+  padding: 0px 10px 10px 0px;
 }
+
 .icon-small{
   display: inline-block;
   width: 1em;
   height: 1em;
   stroke-width: 0;
   stroke: black;
+  cursor:pointer;
 }
-
 
 .header{
     white-space: nowrap;
@@ -62,7 +64,3 @@ a:hover {
     width: 150px;
     padding-right: 10px;
 }
-
-.floated-right{
-    float: right;
-};

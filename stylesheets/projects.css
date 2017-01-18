@@ -1,0 +1,27 @@
+.subsection{
+  padding: 10px 0 10px 0;
+}
+
+.subsection .title{
+  font-weight: bold;
+}
+
+.subsection .subtitle{
+  font-style: italic;
+}
+
+.right{
+    float: right;
+};
+
+.publication{
+    text-decoration: none;
+}
+
+
+.stochss{
+  width: 150px;
+  height: 150px;
+  border-style: inset;
+  float: right;
+}
